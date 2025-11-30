@@ -1,0 +1,73 @@
+body {
+    background-color: aqua;     /* Fondo darkblue */
+    display: flex;                /* Activamos flexbox */
+    justify-content: center;      /* Centra horizontalmente */
+    align-items: center;          /* Centra verticalmente */
+    height: 100vh;                /* Ocupa toda la pantalla */
+    margin: 0;                    /* Quitamos márgenes por defecto */
+}
+
+#reyes-magos {
+    max-width: 80%;               /* Para que no se desborde */
+    height: auto;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#abajo {
+    margin-top: auto;              /* Empuja hacia abajo */
+}
+
+
+menu_principal button {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    background-color: #d4af37;
+    border: none;
+    padding: 10px 20px;
+    border-bottom: 4px solid #b8860b;
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.boton {
+    background-color: #d4ac2b;   /* Color dorado */
+    color: white;                /* Texto blanco */
+    padding: 12px 25px;          /* Tamaño del botón */
+    border-radius: 10px;         /* Bordes redondeados */
+    text-decoration: none;       /* Quita el subrayado */
+    font-size: 18px;             /* Tamaño del texto */
+    display: inline-block;       /* Se comporta como botón */
+    font-weight: bold;
+    box-shadow: 0 5px 0 #b88e22; /* Línea inferior tipo relieve */
+}
+
+
+.body a {
+    background-color: #d4ac2b;   /* Color dorado */
+    color: white;                /* Texto blanco */
+    padding: 12px 25px;             /* Tamaño del botón */
+    border-radius: 10px;            /* Bordes redondeados */
+    text-decoration: none;          /* Quita el subrayado */
+    font-size: 18px;                /* Tamaño del texto */
+    display: inline-block;          /* Se comporta como botón */
+    font-weight: bold;
+    box-shadow: 0 5px 0 #b88e22;  /* Línea inferior tipo relieve */
+}
+
+.boton:active {
+    box-shadow: none;               /* Efecto al presionar */
+    transform: translateY(5px);
+}
